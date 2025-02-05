@@ -1,0 +1,31 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: qa-ui-deployment
+  labels:
+    app: qa-ui
+spec:
+  selector:
+    matchLabels:
+      app: qa-ui
+  template:
+    metadata:
+      labels:
+        app: qa-ui
+    spec:
+      containers:
+        - name: qa-ui
+          image: qa-ui:latest
+          imagePullPolicy: Never
+          ports:
+            - containerPort: 3000
+          env:
+            - name: PUBLIC_DEPLOYMENT_TYPE
+              value: "kubernetes"
+          resources:
+            requests: 
+              cpu: 100m
+              memory: 128Mi
+            limits: 
+              cpu: 200m
+              memory: 256Mi

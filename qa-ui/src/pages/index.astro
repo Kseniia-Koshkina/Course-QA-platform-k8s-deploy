@@ -1,0 +1,8 @@
+---
+import Layout from "../layout/Layout.astro";
+import MainPage from "../components/MainPage.svelte";
+---
+
+<Layout>
+  <MainPage client:only={"svelte"} />
+</Layout>

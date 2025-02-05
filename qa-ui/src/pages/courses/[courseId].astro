@@ -1,0 +1,9 @@
+---
+import CoursePage from "../../components/CoursePage.svelte";
+import Layout from "../../layout/Layout.astro";
+const { courseId } = Astro.params;
+---
+
+<Layout>
+  <CoursePage courseId={courseId} client:only={"svelte"}/>
+</Layout>

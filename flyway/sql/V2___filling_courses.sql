@@ -1,0 +1,5 @@
+INSERT INTO courses (title, description) VALUES 
+('Data Structures and Algorithms', 'This course provides a deep dive into the fundamental concepts of data structures and algorithms, equipping students with the tools needed to solve complex computational problems efficiently. By blending theoretical principles with practical applications, this course prepares students for real-world programming challenges and advanced topics in computer science.');
+
+INSERT INTO courses (title, description) VALUES 
+('Introduction to Machine Learning', 'This course provides a comprehensive introduction to machine learning, focusing on fundamental concepts such as supervised and unsupervised learning, classification, regression, clustering, and neural networks. Students will gain hands-on experience with Python libraries like Scikit-Learn and TensorFlow, and learn how to implement machine learning models to solve real-world problems. The course also covers best practices for model evaluation, hyperparameter tuning, and the ethical considerations in AI.');

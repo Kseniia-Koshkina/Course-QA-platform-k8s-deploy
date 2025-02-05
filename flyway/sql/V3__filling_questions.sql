@@ -1,0 +1,26 @@
+INSERT INTO questions (course_id, title, text) VALUES
+(1, 'Are there any libraries in Python for visualizing algorithms?', 'I want to visually understand how algorithms like sorting or searching work. Are there libraries in Python that can help with visualizing these processes?'),
+(1, 'How can I measure the performance of my algorithm in Python?', 'I want to compare the runtime of different algorithms I implement in Python. What tools or libraries can help me with this?'),
+(1, 'How can I set up a GitHub repository for my data structures and algorithms practice?', 'I want to save my work online and share it with others. Can someone guide me through creating and managing a GitHub repository?'),
+(1, 'How do I approach writing a recursive function for solving problems?', 'I find recursion confusing and often struggle to write recursive solutions. What is the best way to think about recursion and write correct recursive functions?'),
+(1, 'How can I debug my Python code effectively?', 'I am having trouble understanding errors in my Python programs. Are there any tools or best practices for debugging Python code?'),
+(1, 'Why does Python installation fail on my Windows machine?', 'I am trying to install Python on Windows, but the installation keeps failing with an error. What could be causing this, and how can I fix it?'),
+(1, 'What is the difference between an array and a linked list?', 'Can someone explain the fundamental differences between arrays and linked lists in terms of structure, access time, and memory usage?'),
+(1, 'When should I use a stack or a queue?', 'In which scenarios would it be best to use a stack or a queue data structure over other types? What are their real-world applications?'),
+(1, 'How do I implement a binary search tree in Python?', 'Can someone walk me through the steps of implementing a binary search tree from scratch in Python? What are the key methods I should include?'),
+(1, 'What is Big-O notation and how do I calculate it?', 'I’m struggling with understanding Big-O notation. Can someone explain it in simple terms and how I can calculate the time complexity of an algorithm?'),
+(1, 'What is Dijkstra’s algorithm and when should I use it?', 'Can someone explain Dijkstra’s algorithm for finding the shortest path in a graph? What types of problems is it best suited for?'),
+(1, 'How do I balance a binary search tree?', 'What are the methods used to balance a binary search tree, and why is it important for maintaining efficient searching?'),
+(1, 'What are hash tables and how do they work?', 'What is a hash table, and how do hash functions work? Can someone explain how collisions are handled in hash tables?'),
+(1, 'Module 7: Graphs and Graph Algorithms - How do I represent a graph in Python?', 'I am confused about how to represent a graph in Python. Should I use an adjacency matrix or an adjacency list? What are the pros and cons of each?'),
+(1, 'Module 8: Dynamic Programming - How do I identify if a problem can be solved with dynamic programming?', 'I’m having trouble recognizing when to apply dynamic programming. What are the key characteristics of a problem that suggest dynamic programming is the right approach?'),
+(1, 'Module 10: Advanced Algorithms - What is the difference between Dijkstra’s and Bellman-Ford algorithm?', 'I’m trying to understand the difference between Dijkstra’s algorithm and the Bellman-Ford algorithm. When should I use one over the other, especially with negative edge weights?'),
+(1, 'What are the advantages of using a doubly linked list over a singly linked list?', 'I’m trying to decide between using a doubly linked list or a singly linked list. What are the main advantages of using a doubly linked list?'),
+(1, 'How do I solve the 0/1 knapsack problem using dynamic programming?', 'I’m learning about dynamic programming and I’m struggling with the 0/1 knapsack problem. Can someone explain the approach for solving this problem using dynamic programming?'),
+(1, 'How do I detect a cycle in a graph?', 'Can someone explain how to detect a cycle in a directed graph using DFS? What’s the algorithm, and what are its time and space complexities?'),
+(1, 'What are the best practices for debugging Python code involving algorithms?', 'When I debug my Python algorithms, I sometimes struggle with tracking down errors. Can someone suggest best practices or tools for debugging Python code effectively?'),
+(1, 'Module 6: Sorting Algorithms - Why is quicksort considered faster than bubble sort?', 'I read that quicksort is faster than bubble sort, but I don’t fully understand why. Can someone explain the time complexities of both algorithms and their real-world performance differences?');
+
+INSERT INTO questions (course_id, title, text) VALUES
+(2, 'How do I evaluate the performance of a machine learning model?', 'I’m learning about model evaluation, but I’m unsure of the different metrics (like accuracy, precision, recall) and when to use them. Can someone explain these in the context of classification problems?'),
+(2, 'What is hyperparameter tuning and why is it important?', 'I’ve heard of hyperparameter tuning, but I don’t fully understand how it works. Can someone explain what hyperparameters are and why tuning them is important for improving model performance?');
